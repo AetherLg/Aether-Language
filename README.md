@@ -1,4 +1,5 @@
-At the moment, aether does not have full documentation and this file may contain inconsistencies/errors/lies
+*At the moment, aether does not have full documentation and this file may contain inconsistencies/errors/lies
+std in alpha-version, i will upload when it be beta*
 
 
 # Aether-Language
