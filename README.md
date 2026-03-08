@@ -54,32 +54,32 @@ Token |	Operation	| Stack effect
 Token |	Effect
 
 -> name |	Pop top value and store in name
-weave	| Pop name (string) and code (block), store code under that name
-eval	| Pop a string, parse and execute it as Aether code
+1. weave	| Pop name (string) and code (block), store code under that name
+2. eval	| Pop a string, parse and execute it as Aether code
 
 ## Lists
 
-  Token	| Stack effect | Description
-  append | value list append → newlist  | Append value to list
-  at	   | index list at → element      | Get element at index
-  len    | list len → length	          | Length of list
-  remove | index list remove → newlist  | Remove element at index
-  set    | new index list set → newlist | Replace element at index
+1. Token	| Stack effect | Description
+2. append | value list append → newlist  | Append value to list
+3. at	   | index list at → element      | Get element at index
+4. len    | list len → length	          | Length of list
+5. remove | index list remove → newlist  | Remove element at index
+6. set    | new index list set → newlist | Replace element at index
 
 ## Strings
 
 Token | Stack effect | Description
 
-atStr	 | index string atStr → char	        | Get character as one‑char string
-lenStr | string lenStr → length	            | Length of string
-slice	 | end start string slice → substring | Substring from start to end (exclusive)
+1. atStr	 | index string atStr → char	        | Get character as one‑char string
+2. lenStr | string lenStr → length	            | Length of string
+3. slice	 | end start string slice → substring | Substring from start to end (exclusive)
 
 ## File I/O
 
 Token |	Stack effect | Description
 
-readfile  | path readfile → content  | Read file contents
-writefile |	content path writefile → | Write content to file
+1. readfile  | path readfile → content  | Read file contents
+2. writefile |	content path writefile → | Write content to file
 
 ## Command‑line Arguments
 
