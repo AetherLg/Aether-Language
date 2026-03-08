@@ -1,4 +1,4 @@
-1. At the moment, aether does not have full documentation and this file may contain inconsistencies/errors/lies
+1. At the moment, aether does not have full documentation and this file with russian documentation may contain inconsistencies/errors/lies
 2. std in alpha-version, i will upload when it be beta
 
 
