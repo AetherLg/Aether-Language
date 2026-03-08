@@ -1,0 +1,27 @@
+{
+  "name": "aether",
+  "displayName": "Aether Language",
+  "description": "Professional support for Aether lang",
+  "version": "1.0.0",
+  "publisher": "linuxoid",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "aether",
+        "aliases": ["Aether", "aether"],
+        "extensions": [".ath"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "aether",
+        "scopeName": "source.aether",
+        "path": "./syntaxes/aether.tmLanguage.json"
+      }
+    ]
+  }
+}
