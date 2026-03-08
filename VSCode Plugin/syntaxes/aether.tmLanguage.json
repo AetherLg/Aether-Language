@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Aether",
+  "scopeName": "source.aether",
+  "patterns": [
+    {
+      "match": "!!.*$",
+      "name": "comment.line.double-exclamation.aether"
+    },
+    {
+      "begin": "\"",
+      "end": "\"",
+      "name": "string.quoted.double.aether",
+      "patterns": [
+        {
+          "match": "\\\\.",
+          "name": "constant.character.escape.aether"
+        }
+      ]
+    },
+    {
+      "match": "\\b-?\\d+\\b",
+      "name": "constant.numeric.integer.aether"
+    },
+    {
+      "match": "(\\[\\[|\\]\\]|-->>|<<--|--<<|>>--|~~|weave|eval|readfile|writefile)",
+      "name": "keyword.control.aether"
+    },
+    {
+      "match": "\\b(tll|dup|drop|swap|append|at|len|read|toInt|remove|set|args|atStr|lenStr|slice)\\b",
+      "name": "support.function.aether"
+    },
+    {
+      "match": "(\\+|-|\\*|/|>|<|==|!=|>=|<=|&&|\\|\\||not|->)",
+      "name": "keyword.operator.aether"
+    },
+    {
+      "match": "(?<=->\\s+)[a-zA-Z_]\\w*",
+      "name": "variable.other.assignment.aether"
+    }
+  ]
+}
