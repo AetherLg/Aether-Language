@@ -1,5 +1,5 @@
-*At the moment, aether does not have full documentation and this file may contain inconsistencies/errors/lies
-std in alpha-version, i will upload when it be beta*
+1. At the moment, aether does not have full documentation and this file may contain inconsistencies/errors/lies
+2. std in alpha-version, i will upload when it be beta
 
 
 # Aether-Language
