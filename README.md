@@ -17,7 +17,7 @@
 ## Start
   1. ```ghc aether.hs -o aether``` or dowland aether (ELF)
   
-  2. ```Bash \n./aether path/to/program.ath [arguments...]```
+  2. ```./aether path/to/program.ath [arguments...]```
 
 # Language Basics
 ## Stack and Memory
